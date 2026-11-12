@@ -11,7 +11,7 @@ Track applications, manage recruiter conversations, plan your day, and never mis
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Storage](https://img.shields.io/badge/Data-100%25_Local-059669?style=for-the-badge)
 
-**[🌐 Open the Live App](https://sarf-jobpilot.vercel.app/)** · **[📖 Read the Technical Docs](documentation/JobPilot%20Documentation%20(Long).docx)**
+**[🌐 Open the Live App](https://sarf-jobpilot.vercel.app/)** · **[📖 Short Docs](./documentation/JobPilot%20Documentation%20(Short).docx)** · **[📚 Full Technical Docs](./documentation/JobPilot%20Documentation%20(Long).docx)**
 
 </div>
 
@@ -29,6 +29,14 @@ What makes it more than a spreadsheet:
 - 📊 **History-aware analytics** count an interview even if the application was later rejected.
 - 🔥 **Daily streaks, tasks and logs** keep you consistent.
 - 📱 **Installable as a PWA** on desktop and mobile.
+
+---
+
+## 💡 Why I Built JobPilot
+
+Job hunting isn't just about finding a job. It's about dealing with uncertainty, unanswered messages, countless applications, and the pressure of figuring out what's next. I've experienced that struggle myself, so I built **JobPilot** to bring some order to the chaos — not just as a developer building a project, but as someone navigating the journey firsthand.
+
+Built from personal experience, with the hope of making someone else's job search a little easier.
 
 ---
 
@@ -95,6 +103,29 @@ What makes it more than a spreadsheet:
 
 ---
 
+## 🗂️ Project Structure
+
+```
+JobPilot/
+├── documentation/            # Project Docs (Short & Long)
+├── public/
+│   ├── index.html            # HTML shell + PWA meta tags
+│   ├── site.webmanifest      # PWA manifest
+│   ├── vercel.json           # SPA rewrite rule for Vercel
+│   └── *.png / favicon.ico   # App icons
+└── src/
+    ├── App.js                # Providers + routes + theme loader
+    ├── index.js              # Entry point
+    ├── context/              # DataContext (state + engines), ToastContext
+    ├── pages/                # Dashboard, Applications, People, DailyActivity, Settings
+    ├── components/           # layout/, applications/, contacts/, tasks/, ui/
+    ├── data/                 # constants, defaults, quotes
+    ├── utils/                # storage, dates, ids, stats
+    └── styles/               # variables, global, overrides
+```
+
+---
+
 ## 🏁 Getting Started
 
 ### Prerequisites
@@ -126,30 +157,6 @@ The app opens at **http://localhost:3000**.
 | `npm start` | Runs the app in development mode with hot reload |
 | `npm run build` | Creates an optimized production build in `/build` |
 | `npm test` | Runs the test runner |
-
----
-
-## 🗂️ Project Structure
-
-```
-JobPilot/
-├── public/
-│   ├── index.html            # HTML shell + PWA meta tags
-│   ├── site.webmanifest      # PWA manifest
-│   ├── vercel.json           # SPA rewrite rule for Vercel
-│   └── *.png / favicon.ico   # App icons
-└── src/
-    ├── App.js                # Providers + routes + theme loader
-    ├── index.js              # Entry point
-    ├── context/              # DataContext (state + engines), ToastContext
-    ├── pages/                # Dashboard, Applications, People, DailyActivity, Settings
-    ├── components/           # layout/, applications/, contacts/, tasks/, ui/
-    ├── data/                 # constants, defaults, quotes
-    ├── utils/                # storage, dates, ids, stats
-    └── styles/               # variables, global, overrides
-```
-
-For a file-by-file breakdown, see **[PROJECT_DOCS.md](./PROJECT_DOCS.md)**.
 
 ---
 
@@ -212,12 +219,14 @@ Once installed, JobPilot opens in its own window with no browser chrome.
 
 ---
 
-## 🛣️ Ideas for the Future
+## 🛣️ Ideas for the Future (Version 2)
 
-- Optional cloud sync
-- Email and calendar reminders
-- Kanban board view for the pipeline
-- Offline support with a service worker
+- **Cloud Sync**: Optional account creation to sync data across devices automatically.
+- **Kanban Board**: A drag-and-drop board view for the application pipeline.
+- **Browser Extension**: A Chrome extension to save job postings directly into JobPilot with one click.
+- **AI Resume Tailor**: Integrate an AI API to automatically tailor your resume for a specific job description.
+- **Interview Prep Tracker**: A new tab to save common questions and your answers for specific companies.
+- **Offline Support**: Full PWA offline support using a service worker.
 
 ---
 
