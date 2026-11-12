@@ -11,7 +11,7 @@ Track applications, manage recruiter conversations, plan your day, and never mis
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Storage](https://img.shields.io/badge/Data-100%25_Local-059669?style=for-the-badge)
 
-**[🌐 Open the Live App](https://sarf-jobpilot.vercel.app/)** · **[📖 Short Docs](./documentation/JobPilot%20Documentation%20(Short).docx)** · **[📚 Full Technical Docs](./documentation/JobPilot%20Documentation%20(Long).docx)**
+**[🌐 Open the Live App](https://sarf-jobpilot.vercel.app/)** · **[📖 Short Docs](./Documentation/JobPilot%20Documentation%20(Short).docx)** · **[📚 Full Technical Docs](./Documentation/JobPilot%20Documentation%20(Long).docx)**
 
 </div>
 
