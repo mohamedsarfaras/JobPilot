@@ -1,0 +1,37 @@
+:root {
+  --jp-primary:        #2563eb;
+  --jp-primary-hover:  #1d4ed8;
+  --jp-primary-soft:   #eff6ff;
+  --jp-bg:             #f5f7fb;
+  --jp-surface:        #ffffff;
+  --jp-border:         #e5e7eb;
+  --jp-text:           #0f172a;
+  --jp-text-muted:     #64748b;
+  --jp-applied:        #2563eb;
+  --jp-applied-bg:     #eff6ff;
+  --jp-assessment:     #7c3aed;
+  --jp-assessment-bg:  #f5f3ff;
+  --jp-interview:      #0891b2;
+  --jp-interview-bg:   #ecfeff;
+  --jp-followup:       #d97706;
+  --jp-followup-bg:    #fffbeb;
+  --jp-selected:       #059669;
+  --jp-selected-bg:    #ecfdf5;
+  --jp-rejected:       #dc2626;
+  --jp-rejected-bg:    #fef2f2;
+  --jp-noresponse:     #64748b;
+  --jp-noresponse-bg:  #f1f5f9;
+  --jp-withdrawn:      #475569;
+  --jp-withdrawn-bg:   #f8fafc;
+  --jp-low:            #059669;
+  --jp-medium:         #d97706;
+  --jp-high:           #dc2626;
+  --jp-radius:         10px;
+  --jp-radius-sm:      6px;
+  --jp-radius-pill:    999px;
+  --jp-shadow-sm:      0 1px 2px rgba(15, 23, 42, 0.04);
+  --jp-shadow:         0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --jp-shadow-md:      0 4px 12px rgba(15, 23, 42, 0.08);
+  --jp-sidebar-w:      240px;
+  --jp-topbar-h:       60px;
+}
