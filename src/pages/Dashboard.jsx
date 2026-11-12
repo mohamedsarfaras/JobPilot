@@ -38,7 +38,10 @@ export default function Dashboard() {
           <h1>Dashboard</h1>
           <p className="text-muted mb-0">Here is what's happening with your job search.</p>
         </div>
-        {streak > 0 && <div className="badge bg-warning text-dark px-3 py-2 rounded-pill shadow-sm d-flex align-items-center gap-2"><Flame size={16} /> {streak} Day Streak!</div>}
+        {/* ALWAYS SHOW STREAK */}
+        <div className="badge bg-warning text-dark px-3 py-2 rounded-pill shadow-sm d-flex align-items-center gap-2">
+          <Flame size={16} /> {streak} Day Streak
+        </div>
       </div>
 
       <div className="row g-3 mb-4">
