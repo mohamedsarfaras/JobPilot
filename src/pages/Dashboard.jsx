@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 import { useData } from '../context/DataContext';
-import { Briefcase, Users, CalendarCheck, TrendingUp, Award, XCircle, ArrowRight, Flame, CheckCircle2, Circle, FileText, Globe } from 'lucide-react';
+import { Briefcase, Users, CalendarCheck, TrendingUp, Award, XCircle, ArrowRight, Flame, CheckCircle2, Circle, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
-import { formatDate, todayISO } from '../utils/dates';
+import { todayISO } from '../utils/dates';
 import { STATUS_CLASS_MAP } from '../data/constants';
 
 export default function Dashboard() {
